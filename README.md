@@ -1,4 +1,4 @@
-# Flexible Loop structure database catalytic activity prediction platform
+# Loopfinder
  
 Code for the paper "Overcoming Antagonistic Epistasis in Enzyme Evolution through Multidimensional Feature Analysis: Rational Engineering of ReDAAO for Enhanced D-Phosphinothricin in Catalysis".
  
