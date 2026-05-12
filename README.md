@@ -1,6 +1,6 @@
 # Loopfinder
  
-Code for the paper "Overcoming Antagonistic Epistasis in Enzyme Evolution through Multidimensional Feature Analysis: Rational Engineering of ReDAAO for Enhanced D-Phosphinothricin in Catalysis".
+Code for the paper "LoopFinder: Sequence-Driven Prioritization of Enzyme Loop-Replacement Candidates".
  
 The script 'Run_Prediction.py' was used to run the prediction in paper for the activity of Loop Replacement protein.
 
