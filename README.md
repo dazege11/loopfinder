@@ -2,7 +2,7 @@
  
 Code for the paper "Overcoming Antagonistic Epistasis in Enzyme Evolution through Multidimensional Feature Analysis: Rational Engineering of ReDAAO for Enhanced D-Phosphinothricin in Catalysis".
  
-The script 'run_prediction.py' was used to run the prediction in paper for the activity of mutate protein.
+The script 'Run_Prediction.py' was used to run the prediction in paper for the activity of Loop Replacement protein.
 
 ## Installation
 
