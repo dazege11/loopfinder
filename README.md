@@ -15,19 +15,20 @@ pip3 install -r requirements.txt
 ## Example Usage
 
 ```
-python run_prediction.py --input input_example.csv --output prediction_result.tsv
+python3.12 Run_Prediction.py --Input_Sequence input.tsv --Critical_Loop_Region 215-221 --Model_type DAAO --Blosum_Loop 10 --Output_File Predicted.csv
 ```
+* `--Input_Sequence` -- Protein sequence input file.
+* `--Critical_Loop_Region` -- Critical Loop Region Position in Protein sequence.
+* `--Model_type` -- Select Predict Model for Prediction
+* `--Blosum_Loop` -- Top-ranked loop sequences with the highest BLOSUM scores
+* `--Output_File` -- Prediction Output File location.
 
 ## Input Structure
 
 Input File Structure Should be Like:
 
 ```
-Feature
--------
-------k
- ······
----kkkk
+MHSQKRVVVLGSGVIGLSSALILARKGYSVHILARDLPEDVSSQTFASPWAGAVWTPQMTLTDGPRQAKWEESTFKKWVELVPTGHAMWLKGTRRFAQNEDGLLGHWYKDITPNYRPLPSSECPPGAIGVTYDTLSVHAPKYCQYLARELQKLGATFERRTVTSLEQAFDGADLVVNATGLGAKSIAGIDDQAAEPVRGQTVLVKSPCKRCTSDSSDPASPAYIIPRPGGEVICGGTYGVGDWDLSVNPETVQRILKHCLRLDPTISSDGTIEGIEVLRHNVGLRPARRGGPRVEAERIVLPLDRTKSPLSLGRGSARAAKEKEVTLVHAYGFSSAGYQQSWGAAEDVAQLVDEAFQRYHGAARESKL
 ```
 
 
@@ -35,6 +36,4 @@ Feature
 
 The raw data from the analyses in the paper can be found here: https://drive.google.com/drive/folders/1JEhmPBjn1A7GYO0D2YcNL9hkIFMGT-Dh?usp=sharing
 
-The folder contains the following file about the activity prediction result used in paper:
 
-* `prediction_result.csv` -- Results with the mutation prediction results listed in the Paper.
